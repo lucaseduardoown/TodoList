@@ -1,0 +1,78 @@
+html, body{
+width: 100%;
+height: 90%;
+margin: 0;
+padding: 0;
+background-color: grey;
+}
+.capsula{
+justify-content: center;
+align-items: center;
+text-align: center;
+display:flex;
+flex-direction: column;
+margin-top: 2rem;
+}
+#tdl{
+text-align:center;
+margin-top: 50px;
+}
+.input_div{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.input_div  .txtb{
+height: 50px;
+outline: none;
+border: none;
+background-color: #fff;
+width: 450px;
+border-radius: 25px;
+}
+.addButton{
+margin: 0.25rem;
+font-size: 25px;
+height: 50px;
+width: 50px;
+border-radius: 25px;
+outline: none;
+border:none;
+cursor: pointer;
+}
+.addButton:hover{
+opacity: 0.7;
+}
+.tarefa{
+width: 100%;
+height: 100%;
+margin: 6px;
+border-bottom: 2px solid;
+text-align: left;
+}
+.tarefa i{
+float: right;
+margin-left: 20px;
+cursor: pointer;
+}
+#campo_edita{
+  display:none;
+  width:100%;
+  height:100%;
+}
+#text_edita{
+  width: 80%;
+  height: 100%;
+  border-radius: 25px;
+  border:none;
+  border-bottom: 2px solid;
+}
+#botao_edita{
+  float: right;
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 25px;
+  border-bottom: 2px solid;
+}
